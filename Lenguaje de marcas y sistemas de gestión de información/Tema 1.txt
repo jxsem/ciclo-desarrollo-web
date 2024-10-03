@@ -1,0 +1,26 @@
+1. Introducción y contextualización práctica Los lenguajes de marcas permiten estructurar y presentar información, principalmente en la creación de páginas web. 
+Estos lenguajes usan etiquetas para definir los datos y garantizar su correcta interpretación por los navegadores.
+
+2. Concepto y características generales Un lenguaje de marcas es un sistema que permite crear documentos mediante etiquetas, como HTML y XML, que pueden ser interpretados en diferentes aplicaciones. 
+Sus características principales incluyen:
+
+Texto plano: editable en cualquier procesador de textos.
+Compacto: las etiquetas no se muestran en el resultado final.
+Flexible: permite su uso en diversos ámbitos.
+Orígenes: Inició con GML, que evolucionó a SGML, luego HTML y más tarde XML.
+
+3. Clasificación de lenguajes de marcas Existen tres tipos:
+
+De presentación: para el diseño de documentos (e.g., Word).
+De procedimiento: mezcla presentación y edición (e.g., PostScript).
+Descriptivos o semánticos: describen información sin indicar cómo representarla (e.g., XML, HTML).
+4. Herramientas de edición
+
+Bloc de notas: simple y sin funcionalidades avanzadas.
+Notepad++: resalta sintaxis y facilita la depuración.
+Visual Studio Code: incluye autocompletado y plugins para aumentar sus capacidades.
+5. XML: características y etiquetas Es un metalenguaje que permite crear etiquetas personalizadas. No está limitado en número de etiquetas y permite estructurar la información de manera jerárquica.
+
+6. Elaboración de documentos bien formados Un documento XML debe cumplir con reglas sintácticas estrictas, como la correcta apertura y cierre de etiquetas y la sensibilidad a mayúsculas y minúsculas.
+
+7. Utilización de espacios de nombres en XML Permite diferenciar etiquetas ambiguas al combinar varios ficheros XML usando prefijos.

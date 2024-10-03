@@ -1,0 +1,34 @@
+Resumen: Tema 1 - Introducción a la Programación
+
+1. Informática
+Conjunto de conocimientos que permiten el procesamiento automático de la información mediante ordenadores.
+Datos: Representan hechos puntuales como números o palabras.
+Información: Resultado del procesamiento de los datos.
+
+2. Hardware vs Software
+Hardware: Componentes físicos.
+Software: Programas que permiten el funcionamiento del hardware.
+
+3. Lenguajes de Programación
+
+Clasificación:
+Lenguaje máquina (0s y 1s).
+Lenguaje ensamblador.
+Lenguajes de alto nivel (cercanos al lenguaje humano).
+
+Estilo:
+Imperativo (Describe como se debe hacer algo -> Por ejemplo PYTHON).
+Declarativo (resultado deseado -> HTML (Ya se que no es un lenguaje como tal, pero es un ejemplo de un resultado deseado. En HTML establecemos SU estructura -> Resultado de una página web)).
+
+Traducción:
+Compiladores: Traducen todo el programa de una vez.
+Intérpretes: Traducen instrucción por instrucción.
+
+4. Estructura de un Programa
+Entrada → Procesamiento → Salida.
+Eficiencia: Uso óptimo de recursos.
+Eficacia: Cumplir con las funcionalidades.
+
+5. Algoritmos
+Definición: Conjunto finito y ordenado de pasos para resolver un problema.
+Características: Preciso, definido, finito y determinista.

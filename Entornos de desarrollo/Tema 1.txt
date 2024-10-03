@@ -1,0 +1,49 @@
+1. Introducción y Contextualización Práctica
+Lenguajes de alto nivel: Más cercanos al lenguaje natural y fáciles de usar.
+Relación software-hardware: El software debe adaptarse al hardware para funcionar.
+Evolución paralela de software y hardware.
+
+2. Programa Informático
+Definición: Conjunto detallado de instrucciones para resolver un problema.
+Características: No debe ser ambiguo y debe especificar una secuencia lógica de instrucciones.
+Diferencias entre programa informático y software.
+Relación entre programa informático y algoritmo: Un programa contiene varios algoritmos.
+
+Hardware y Software:
+El sistema operativo carga el programa en la memoria RAM para que pueda ser ejecutado por la CPU.
+Arquitectura de Von Neumann: Memoria principal, sistema de entrada/salida, CPU (ALU, registros, unidad de control).
+
+3. Lenguaje de Programación
+Definición: Conjunto de sentencias y expresiones para comunicarse con la máquina.
+Lenguajes de alto nivel: Facilitan el uso y aprendizaje pero requieren compilación.
+
+Niveles de abstracción:
+Alto nivel: Ocultan detalles de la CPU (Ej. Java, C++).
+Medio nivel: Cerca del hardware, pero aún abstractos (Ej. C, Fortran).
+Bajo nivel: Dependen de la máquina (Ej. Ensamblador).
+
+4. Caso Práctico 1: Elección de Lenguaje para Canales de Comunicación con Clientes
+Objetivo: Crear un portal web y aplicaciones móviles para videojuegos.
+Enfoque recomendado: Usar lenguajes de alto nivel por su independencia del hardware y facilidad de uso.
+Portal web: HTML, CSS, JavaScript (front-end), PHP o Java (back-end).
+Aplicaciones móviles: Herramientas como Drupal o WordPress con soporte API Rest.
+
+5. Paradigmas de Programación
+Clasificación:
+Imperativo: Algoritmos detallados (subtipos: orientado a objetos, procedimental).
+Declarativo: Solo indica el resultado esperado, no los pasos (subtipos: funcional, lógico).
+Evolución actual: Los lenguajes imperativos adoptan características de los declarativos (Ej. funciones lambdas en Kotlin y Swift).
+
+6. Fases del Proceso de Compilación
+Análisis léxico: Verifica si los elementos son válidos en el lenguaje.
+Análisis sintáctico: Revisa el orden de los elementos.
+Análisis semántico: Verifica que las sentencias tengan sentido.
+Generación de código intermedio: Representación independiente del procesador.
+Optimización de código intermedio: Mejora el rendimiento del código (opcional).
+Generación de código final: Traduce el código al conjunto de instrucciones de la CPU.
+
+7. Caso Práctico 2: Lenguaje para Videojuegos
+Objetivo: Crear un videojuego con diversos módulos (motor gráfico, IA).
+Solución:
+Lenguaje imperativo: Para el motor gráfico y estructuras de datos  (C++, Lua).
+Lenguaje declarativo: Para inteligencia artificial (Haskell).

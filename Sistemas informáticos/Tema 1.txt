@@ -1,0 +1,32 @@
+Resumen de los Sistemas Informáticos (Tema 1)
+
+Introducción y Arquitectura de Ordenadores: La arquitectura de un ordenador se refiere al diseño y organización de sus componentes, como la CPU, RAM, y dispositivos de almacenamiento. 
+Existen distintas arquitecturas clave: Von Neumann y Harvard.
+
+Arquitectura de Von Neumann:
+
+Componentes: CPU, memoria principal, dispositivos de entrada/salida, y buses.
+Funcionamiento: Sigue un ciclo de instrucción con las etapas Fetch, Decode, Execute, y Store.
+Ventajas: Simplicidad y flexibilidad.
+Desventajas: Cuello de botella de Von Neumann, donde la CPU y la memoria comparten el mismo bus.
+
+Arquitectura Harvard:
+
+Componentes: CPU, memorias separadas para instrucciones y datos, y buses independientes.
+Funcionamiento: Acceso simultáneo a instrucciones y datos, lo que mejora el rendimiento.
+Ventajas: Mayor eficiencia y fiabilidad.
+Desventajas: Mayor complejidad de diseño.
+
+Componentes de un Sistema Informático:
+
+Placa base: Conecta todos los componentes del sistema.
+Fuente de alimentación: Convierte corriente alterna en continua para el funcionamiento del equipo.
+Almacenamiento: Incluye dispositivos magnéticos (discos duros), electrónicos (SSD), y ópticos (CD/DVD).
+Memoria RAM: Almacena temporalmente información y es esencial para el funcionamiento del ordenador.
+
+Periféricos:
+
+Dispositivos de entrada, salida, almacenamiento, y comunicación. Ejemplos: teclado, ratón, monitor, impresora.
+Normas de Seguridad y Prevención de Riesgos:
+
+Ley 31/1995: Prevención de riesgos laborales. Incluye ergonomía, fatiga visual, riesgos eléctricos, y medidas de seguridad para mitigar estos riesgos.

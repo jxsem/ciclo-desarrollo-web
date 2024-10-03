@@ -1,0 +1,48 @@
+1. Introducción y Contextualización Práctica
+Definición de la Cuarta Revolución Industrial: Convergencia de tecnologías digitales, físicas y biológicas.
+Impacto: Transformación en la forma de vivir, trabajar e interactuar. Avances en inteligencia artificial, robótica, nanotecnología, biotecnología, impresión 3D, computación cuántica, IoT.
+
+2. Cronología de las Revoluciones Industriales
+Primera Revolución Industrial (siglo XVIII - mediados del siglo XIX)
+
+Transición de producción manual a mecanizada.
+Sectores clave: textil, minería, metalurgia.
+Inventos clave: máquina de vapor, telares automáticos, ferrocarril.
+Consecuencias: Aumento de productividad, migración rural a ciudades, cambios sociales y laborales.
+
+Segunda Revolución Industrial (1870 - Segunda Guerra Mundial)
+Avances en electricidad, producción en masa, motor de combustión interna.
+Inventos clave: teléfono, producción en cadena (Ford T).
+Consecuencias: Expansión de clase media, mejor estándar de vida, desigualdad económica.
+
+Tercera Revolución Industrial (posguerra - actualidad)
+Automatización, informática, tecnología digital, globalización.
+Eventos clave: transistores, ordenadores, Internet, digitalización de la información.
+Consecuencias: Desempleo en sectores tradicionales, nuevas habilidades digitales, economía orientada a servicios.
+
+3. La Cuarta Revolución Industrial
+Definición: Era de transformación basada en la fusión de lo físico, lo digital y lo biológico.
+Convergencia de tecnologías disruptivas: Impacto en la manera de vivir y trabajar.
+
+3.1. Características Distintivas de la Digitalización en Sectores Productivos
+Automatización: Mejora eficiencia, reduce errores.
+Conectividad: IoT, monitoreo en tiempo real.
+Personalización: Adaptación de productos a clientes.
+Analítica Avanzada: Uso de Big Data y AI para decisiones.
+Flexibilidad y Agilidad: Adaptación rápida a cambios de mercado.
+
+3.2. Tecnologías Habilitadoras Digitales (THD)
+Definición: Tecnologías avanzadas que impulsan la innovación en distintos sectores (ej. Inteligencia Artificial, IoT, Big Data).
+Características: Investigación, innovación ágil, inversión en infraestructura y personal.
+
+3.3. Interconexión de Tecnologías e Impacto en la Cadena de Valor
+Optimización de Procesos: Mejora la producción y logística.
+Personalización: Mejora experiencia del cliente.
+Reducción de Costos: Eficiencia energética, logística.
+Innovación: Diferenciación competitiva.
+
+4. Sistemas Ciberfísicos (CPS)
+Definición: Sistemas que integran componentes físicos y virtuales conectados.
+Funcionamiento: Sensores capturan datos del entorno físico y sistemas computacionales toman decisiones.
+Beneficios: Monitoreo y control en tiempo real.
+Desafíos: Ciberseguridad, interoperabilidad, privacidad, formación de personal.

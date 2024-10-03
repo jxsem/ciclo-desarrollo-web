@@ -1,0 +1,114 @@
+1. Introducción
+Importancia de la gestión de la información:
+Nuestras actividades cotidianas están ligadas al almacenamiento y gestión de datos (citas médicas, redes sociales, transporte, etc.).
+La información (datos) es el recurso más valioso para cualquier organización.
+Los sistemas de bases de datos son fundamentales para almacenar y procesar estos datos eficientemente.
+
+Objetivos del tema:
+
+Comprender la importancia de la información y su correcta gestión.
+Conocer el concepto de fichero y los diferentes tipos.
+Entender la estructura organizativa de los sistemas de información.
+Identificar los distintos sistemas de almacenamiento.
+Comprender los fundamentos de las bases de datos actuales.
+
+2. Representación de la Información
+Bit: Unidad mínima de información (0 o 1), base de cualquier sistema digital.
+Los bits se agrupan en patrones de bits para formar números, caracteres, archivos como imágenes (.jpg), vídeos (.mp4), ejecutables (.exe).
+Codificación: Toda instrucción o dato debe traducirse al sistema binario (0 y 1) para que el ordenador lo entienda.
+Ejemplo de múltiplos de bit:
+Byte: 8 bits
+Kilobyte (KB): 1,024 bytes
+Megabyte (MB): 1,024 KB
+Los datos almacenados pueden ser interpretados por software o hardware para representarlos como texto, imágenes, sonidos, vídeos, etc.
+
+3. Concepto de Fichero
+Definición: Un fichero (o archivo) es la estructura básica de almacenamiento de datos en un sistema informático.
+Contiene información almacenada en bits organizados de manera específica.
+Los ficheros tienen un nombre y una extensión para indicar el tipo de datos que contienen:
+Ejemplos: .txt (texto), .jpg (imagen), .exe (ejecutable).
+Los ficheros son colecciones de registros lógicos (datos relacionados), y permiten operaciones como consulta, modificación o eliminación.
+
+4. Tipos de Ficheros según su Organización
+
+Ficheros secuenciales:
+Almacenan datos de forma continua y ordenada.
+Para acceder a un dato específico es necesario recorrer todos los datos previos.
+Ejemplo: ficheros de registro (log) que guardan eventos en orden cronológico.
+
+Ficheros de acceso directo:
+Los datos tienen una longitud fija previamente definida, lo que permite acceder a cualquier dato directamente, sin recorrer todo el fichero.
+Ventaja: mayor rapidez en el acceso.
+Inconveniente: desperdicio de espacio en disco si los datos no ocupan toda la longitud asignada.
+Ficheros indexados:
+Usan un índice para organizar los datos, facilitando un acceso rápido y eficiente.
+Ejemplo: sistemas de archivos usados por bases de datos, donde se busca información por claves o índices.
+
+5. Ficheros según su Contenido
+
+Ficheros planos o de texto:
+Contenido comprensible directamente por las personas, sin necesidad de software especializado.
+Ejemplo: archivos de texto con código (.php, .html) o archivos de configuración (.cfg, .ini).
+Usan el código ASCII para representar caracteres.
+Ficheros binarios:
+Codificados en formato binario, requieren software específico para su interpretación.
+Ejemplos:
+Archivos de aplicaciones (.docx, .pdf).
+Ejecutables (.exe, .bat).
+Archivos multimedia (.jpg, .mp4, .png).
+
+6. Tipos de Ficheros según su Uso
+Ficheros permanentes:
+Contienen datos esenciales que necesitan persistencia a lo largo del tiempo.
+Tipos:
+Maestros: Información actual que refleja el estado de elementos cambiantes (ej.: lista de usuarios).
+Históricos: Contienen datos antiguos sobre actividades pasadas (ej.: registros contables).
+De constantes: Datos que apenas cambian (ej.: coordenadas geográficas de una ciudad).
+Ficheros temporales:
+Almacenan información para uso temporal y se pueden eliminar después.
+Tipos:
+De movimientos: Guardan transacciones recientes o en curso (ej.: actualizaciones de inventarios).
+De maniobra: Facilitan la manipulación de datos temporales durante procesos de cálculo o edición.
+
+7. Sistemas de Almacenamiento de la Información
+Los sistemas de almacenamiento incluyen tanto dispositivos físicos como arquitecturas lógicas.
+Ejemplos: discos duros, SSD, memorias flash, almacenamiento en la nube.
+Sistemas lógicos de almacenamiento:
+
+Organizan los datos en dispositivos físicos a nivel lógico (un único sistema de almacenamiento puede estar compuesto por varias particiones).
+8. Tipos de Sistemas de Almacenamiento
+Discos duros:
+
+HDD (magnéticos): Mayor capacidad pero más lentos.
+SSD (estado sólido): Menor capacidad, mayor velocidad y fiabilidad.
+NAS (Network Attached Storage):
+
+Almacenamiento conectado a una red local, accesible por múltiples dispositivos.
+SAN (Storage Area Network):
+
+Red dedicada al almacenamiento que permite el acceso a grandes volúmenes de datos con alto rendimiento.
+RAID (Redundant Array of Independent Disks):
+
+Configuración que combina varios discos para mejorar velocidad o seguridad a través de redundancia.
+Ejemplo: RAID 1 (duplicación de datos para protección), RAID 0 (división para mayor velocidad)
+
+9. Comparación de Ficheros con Bases de Datos
+
+Organización:
+Ficheros: Almacenados en carpetas sin relación interna.
+Bases de datos: Organizan la información en tablas, facilitando la interrelación de los datos.
+
+Accesibilidad:
+Ficheros: Acceso limitado, búsqueda manual.
+Bases de datos: Acceso rápido y eficiente mediante lenguajes de consulta como SQL.
+
+Manipulación de datos:
+Ficheros: Operaciones básicas, las operaciones avanzadas requieren programación manual.
+Bases de datos: Permiten manipulación avanzada mediante lenguajes automatizados.
+
+Seguridad:
+Bases de datos ofrecen mayor seguridad con encriptación y control de acceso, mientras que los ficheros dependen de la seguridad del sistema operativo.
+
+Escalabilidad:
+Ficheros: Ineficientes con grandes volúmenes de datos.
+Bases de datos: Diseñadas para manejar grandes volúmenes sin pérdida de rendimiento.
