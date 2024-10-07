@@ -1,1 +1,1 @@
-Apuntes por temario de todas las asignaturas, incluye también ejercicios y codigo de html, css, java (de momento) conforme vaya avanzando el ciclo se incluirán proyectos y maquetación web
+Apuntes por temario de todas las asignaturas, incluye también ejercicios y codigo de html, css, java (de momento) conforme vaya avanzando el ciclo se incluirán proyectos, maquetación web, lógica de programación y ejercicios en java para fortalecer los conocimientos adquiridos.
