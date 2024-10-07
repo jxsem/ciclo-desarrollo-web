@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hola Mundo.iml" filepath="$PROJECT_DIR$/Hola Mundo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Variables/VariablesJava/VariablesJava.iml" filepath="$PROJECT_DIR$/../Variables/VariablesJava/VariablesJava.iml" />
     </modules>
   </component>
 </project>
