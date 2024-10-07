@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="openjdk-23_windows-x64_bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Java/openjdk-23_windows-x64_bin.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
