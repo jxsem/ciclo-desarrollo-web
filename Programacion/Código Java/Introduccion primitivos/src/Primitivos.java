@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Primitivos {
     public static void main(String[] args) {
         /*Los primitivos son datos escalares que contienen solo un valor*/
@@ -54,7 +56,12 @@ public class Primitivos {
 
         var numeroVar = 9223372036854775808F; /*var es palabra reservada para asignar valor a una variable, podemos usarla
                                               para crear lo mismo que arriba, usamos letras para decir si es Double, Float, Long...*/
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Escribe un numero: ");
 
+        int numeroUsuario = scan.nextInt();
+
+        System.out.println(numeroUsuario);
     }
 
 
