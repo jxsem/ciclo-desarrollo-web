@@ -89,7 +89,7 @@ public class Condicionales {
 
         /*Ejercicio 4:
         Descripción: Escribe un programa que pida al usuario que introduzca tres números.
-        Luego, imprime el mayor de los tres números.*/
+        Luego, imprime el mayor de los tres números.
 
         System.out.println("Introduce el primer numero: ");
         int numeroUno = dato.nextInt();
@@ -106,6 +106,72 @@ public class Condicionales {
         } else {
             System.out.println("El numero " + numeroTres + " es el mayor de los tres");
         }
+        /*SWITCH CASE*/
+
+        /*El switch-case es útil cuando tienes una variable y quieres comparar su valor con diferentes opciones.*/
+         //Es ideal para SITUACIONES DONDE TIENES MUCHAS CONDICIONES if-else anidadas basadas en el valor de una sola variable.
+
+            int dia = 3;
+            switch (dia) {
+                case 1:
+                    System.out.println("Lunes");
+                    break;
+                case 2:
+                    System.out.println("Martes");
+                    break;
+                case 3:
+                    System.out.println("Miércoles");
+                    break;
+                case 4:
+                    System.out.println("Jueves");
+                    break;
+                case 5:
+                    System.out.println("Viernes");
+                    break;
+                default:
+                    System.out.println("Fin de semana");
+                    break;
+            }
+
+                /*ESTRUCTURA*/
+
+                /*tipovariable (nombrevariable) = valor
+
+                * switch (nombrevariable{
+                *   case (valorvariable)
+                *       System out print("Valor por terminal")
+                    case (valorvariable)
+                        System out print("Valor terminal)
+                *       break;})*/
+
+                /*Calculadora básica:
+                Crea un programa que solicite dos números y una operación (+, -, *, /).
+                Utiliza un switch case para realizar la operación correspondiente y mostrar el resultado.*/
+
+                System.out.println("Introduce un numero entero: ");
+                int entero = dato.nextInt();
+                System.out.println("Introduce otro numero entero: ");
+                int enteroDos = dato.nextInt();
+                dato.nextLine(); // Limpiar el buffer
+
+                System.out.println("¿Qué tipo de operación quieres realizar: Suma, Resta, Multiplicación o División?: ");
+                String instruccion = dato.nextLine();
+
+                switch (instruccion) {
+                    case ("Suma"):
+                        System.out.println(entero + enteroDos);
+                        break;
+                    case ("Resta"):
+                        System.out.println(entero - enteroDos);
+                        break;
+                    case ("Multiplicacion"):
+                        System.out.println(entero * enteroDos);
+                        break;
+                    case ("Division"):
+                        System.out.println(entero / enteroDos);
+                        break;
+                }
+
     }
 }
 

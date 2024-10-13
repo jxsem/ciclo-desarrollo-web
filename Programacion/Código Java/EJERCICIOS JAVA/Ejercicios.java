@@ -1,4 +1,3 @@
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Ejercicios {
@@ -63,7 +62,6 @@ public class Ejercicios {
             System.out.println("El año no es bisiesto");
         }
 
-
         /*Escribe un programa que pida al usuario que introduzca la calificación de un estudiante
             (de 0 a 100) y determine la calificación en letras según la siguiente escala:
 
@@ -87,5 +85,6 @@ public class Ejercicios {
             System.out.println("Calificacion D");
         }else
             System.out.println("Calificacion F");
+        
     }
 }
