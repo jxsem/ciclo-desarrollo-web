@@ -110,8 +110,9 @@ public class Condicionales {
 
         /*El switch-case es útil cuando tienes una variable y quieres comparar su valor con diferentes opciones.*/
          //Es ideal para SITUACIONES DONDE TIENES MUCHAS CONDICIONES if-else anidadas basadas en el valor de una sola variable.
-
-            int dia = 3;
+        
+            System.out.println("Selecciona un numero de la semana");
+            int dia = dato.nextInt();
             switch (dia) {
                 case 1:
                     System.out.println("Lunes");
@@ -152,7 +153,7 @@ public class Condicionales {
                 int entero = dato.nextInt();
                 System.out.println("Introduce otro numero entero: ");
                 int enteroDos = dato.nextInt();
-                dato.nextLine(); // Limpiar el buffer
+                dato.nextLine();
 
                 System.out.println("¿Qué tipo de operación quieres realizar: Suma, Resta, Multiplicación o División?: ");
                 String instruccion = dato.nextLine();
