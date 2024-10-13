@@ -169,8 +169,13 @@ public class Condicionales {
                         System.out.println(entero * enteroDos);
                         break;
                     case ("Division"):
-                        System.out.println(entero / enteroDos);
-                        break;
+                        if (enteroDos != 0) { // se anida if y else cuando hay mas de una comprobacion dentro de un caso
+                            System.out.println("Resultado: " + (entero / enteroDos));
+                        } else {
+                            System.out.println("Error: No se puede dividir por cero.");
+                        }
+                    default: // es como un else
+                        System.out.println("Operación no válida. Por favor, elige Suma, Resta, Multiplicacion o Division.");
                 }
 
     }
